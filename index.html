@@ -16,8 +16,10 @@
       src="https://kit.fontawesome.com/959f24c154.js"
       crossorigin="anonymous"
     ></script>
+
     <script
-      src="https://kit.fontawesome.com/959f24c154.js"
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
       crossorigin="anonymous"
     ></script>
   </head>
@@ -258,6 +260,48 @@
         style="width: 100%; height: 500px"
       ></div>
     </section>
+    <footer class="container-fluid">
+      <div class="row">
+        <div class="col-7 pt-3">
+          <h1 class="footer-text text-center">Viajes Chile</h1>
+        </div>
+        <div class="col-5 pt-1">
+          <a
+            href=""
+            class="footer-icon me-3"
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title="Github"
+          >
+            <i class="fab fa-github-square"></i
+          ></a>
+          <a
+            href=""
+            class="footer-icon me-3"
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title="Linkedin"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a
+            href=""
+            class="footer-icon me-3"
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title="Twitter"
+            ><i class="fab fa-twitter-square"></i
+          ></a>
+          <a
+            href=""
+            class="footer-icon"
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            title="Facebook"
+            ><i class="fab fa-facebook-square"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
@@ -284,18 +328,10 @@
         }
       })();
     </script>
-    <footer class="container-fluid">
-      <div class="row">
-        <div class="col-7">
-          <h1 class="footer-text text-center">Viajes Chile</h1>
-        </div>
-        <div class="col-5 pt-1">
-          <i class="fab fa-github-square fa-3x me-4"></i>
-          <i class="fab fa-linkedin fa-3x me-4"></i>
-          <i class="fab fa-twitter-square fa-3x me-4"></i>
-          <i class="fab fa-facebook-square fa-3x"></i>
-        </div>
-      </div>
-    </footer>
+    <script>
+      $(function () {
+        $('[data-bs-toggle="tooltip"]').tooltip();
+      });
+    </script>
   </body>
 </html>

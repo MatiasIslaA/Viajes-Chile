@@ -55,3 +55,11 @@ hr {
 footer {
   background-color: rgb(61, 161, 207);
 }
+.footer-icon {
+  font-size: 50px;
+  color: #fff;
+  cursor: pointer;
+}
+.footer-icon:hover {
+  color: #fff;
+}
