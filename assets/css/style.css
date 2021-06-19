@@ -1,0 +1,57 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  font-weight: 400;
+}
+.logo {
+  display: flex;
+}
+p {
+  font-size: 18px;
+}
+h5 {
+  font-size: 20px;
+  font-weight: 400;
+}
+.padding-container {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.text-logo {
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin-left: 0.425rem;
+  margin-top: 0.2rem;
+}
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-title {
+  font-weight: 300;
+}
+hr {
+  border-top: 2px solid rgb(61, 161, 207);
+  opacity: 100;
+}
+.icon-bg {
+  background-color: rgb(61, 161, 207);
+}
+.card-body {
+  background-color: rgb(61, 161, 207);
+}
+.card-img,
+.card-img-bottom,
+.card-img-top {
+  height: 40%;
+}
+.footer-text {
+  text-transform: uppercase;
+}
+footer {
+  background-color: rgb(61, 161, 207);
+}
