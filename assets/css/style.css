@@ -44,10 +44,10 @@ hr {
 .card-body {
   background-color: rgb(61, 161, 207);
 }
-.card-img,
-.card-img-bottom,
+
 .card-img-top {
-  height: 40%;
+  height: 24vh;
+  object-fit: cover;
 }
 .footer-text {
   text-transform: uppercase;
@@ -62,4 +62,15 @@ footer {
 }
 .footer-icon:hover {
   color: #fff;
+}
+.modal-dialog {
+  color: black;
+}
+.text-content {
+  height: 100%;
+}
+.schedule-btn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
